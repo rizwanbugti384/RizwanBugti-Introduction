@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RizWanBuGti — Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="brand">
+                    <img src="images/36.jpeg" alt="RizWanBuGti logo" class="brand-logo">
+                    <div class="brand-name">Riz<span>Wan</span>BuGti</div>
+                </a>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="accent">RizWan BuGti</span></h1>
+                    <p>Frontend web developer from Dera Bugti. I build clean, responsive, and user-friendly websites using HTML, CSS & JavaScript.</p>
+                    
+                    <div class="btn-group">
+                        <a href="about.html" class="btn btn-primary">
+                            <i class="fas fa-user"></i> About Me
+                        </a>
+                        <a href="gallery.html" class="btn btn-secondary">
+                            <i class="fas fa-images"></i> View Gallery
+                        </a>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <a href="mailto:rizwanbugti33@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i> rizwanbugti33@gmail.com
+                        </a>
+                        <a href="https://wa.me/923048588384" class="contact-link">
+                            <i class="fab fa-whatsapp"></i> +92 304 858 8384
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="profile-card">
+                    <img src="images/35.jpg" alt="RizWan BuGti" class="profile-img">
+                    <div class="card-content">
+                        <h3>Frontend Specialist</h3>
+                        <p>HTML • CSS • JavaScript • Responsive UI</p>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/rizwanbugti11/" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                            <a href="https://pk.linkedin.com/in/rizwanbugti" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <p>I specialize in creating modern, responsive web experiences with clean code and attention to detail.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup for accessible and SEO-friendly websites.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Modern styling with Flexbox, Grid, and responsive design principles.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive features and dynamic content for engaging user experiences.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look great on all devices, from mobile to desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>RizWanBuGti</h3>
+                    <p>Frontend web developer creating clean, responsive websites with modern technologies.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Connect With Me</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.instagram.com/rizwanbugti11/" target="_blank">Instagram</a></li>
+                        <li><a href="https://pk.linkedin.com/in/rizwanbugti" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:rizwanbugti33@gmail.com">Email</a></li>
+                        <li><a href="https://wa.me/923048588384">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; <span id="currentYear"></span> RizWanBuGti. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
